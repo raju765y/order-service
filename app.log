@@ -1,0 +1,54 @@
+2021-05-13 10:59:38,360 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Fetching config from server at : http://localhost:9196
+2021-05-13 10:59:40,356 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [main] Located environment: name=ORDER-SERVICE, profiles=[default], label=null, version=34cc1da535762f03121825704e7b50f7f10578ae, state=null
+2021-05-13 10:59:40,372 INFO org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration [main] Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/Java-Techie-jt/cloud-config-server/application.yml'}]
+2021-05-13 10:59:40,529 INFO com.javatechie.os.api.OrderServiceApplication [main] No active profile set, falling back to default profiles: default
+2021-05-13 10:59:43,289 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-13 10:59:43,711 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 410ms. Found 1 JPA repository interfaces.
+2021-05-13 10:59:44,334 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=50462d26-c7fc-309b-9cfe-d86ffb895ed9
+2021-05-13 10:59:45,692 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 9192 (http)
+2021-05-13 10:59:45,723 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-05-13 10:59:45,723 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-13 10:59:46,196 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-05-13 10:59:46,196 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5636 ms
+2021-05-13 10:59:46,306 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-05-13 10:59:46,758 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-05-13 10:59:46,759 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-05-13 10:59:47,171 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-13 10:59:47,296 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-13 10:59:47,576 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-13 10:59:47,795 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-05-13 10:59:49,061 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-13 10:59:49,077 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-13 10:59:49,281 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2021-05-13 10:59:49,281 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-13 10:59:49,296 WARN com.netflix.config.sources.URLConfigurationSource [main] No URLs will be polled as dynamic configuration sources.
+2021-05-13 10:59:49,296 INFO com.netflix.config.sources.URLConfigurationSource [main] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-05-13 10:59:49,453 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 10:59:49,796 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-13 10:59:51,885 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2021-05-13 10:59:52,888 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-05-13 10:59:53,001 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2021-05-13 10:59:53,225 INFO com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2021-05-13 10:59:54,191 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON encoding codec LegacyJacksonJson
+2021-05-13 10:59:54,191 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using JSON decoding codec LegacyJacksonJson
+2021-05-13 10:59:54,507 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML encoding codec XStreamXml
+2021-05-13 10:59:54,507 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [main] Using XML decoding codec XStreamXml
+2021-05-13 10:59:54,944 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2021-05-13 10:59:55,302 INFO com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2021-05-13 10:59:55,554 INFO com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2021-05-13 10:59:55,554 INFO com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2021-05-13 10:59:55,554 INFO com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-05-13 10:59:55,570 INFO com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1620874795570 with initial instances count: 3
+2021-05-13 10:59:55,570 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ORDER-SERVICE with eureka with status UP
+2021-05-13 10:59:55,570 INFO com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1620874795570, current=UP, previous=STARTING]
+2021-05-13 10:59:55,570 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDER-SERVICE/OSI-L-0327.osius.com:ORDER-SERVICE:9192: registering service...
+2021-05-13 10:59:55,663 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 9192 (http) with context path ''
+2021-05-13 10:59:55,663 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 9192
+2021-05-13 10:59:55,679 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_ORDER-SERVICE/OSI-L-0327.osius.com:ORDER-SERVICE:9192 - registration status: 204
+2021-05-13 10:59:56,399 INFO com.javatechie.os.api.OrderServiceApplication [main] Started OrderServiceApplication in 21.67 seconds (JVM running for 22.927)

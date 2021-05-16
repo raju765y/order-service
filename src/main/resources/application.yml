@@ -1,0 +1,21 @@
+server:
+  port: 9192
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  application:
+    name: ORDER-SERVICE
+
+logging:
+  level:
+    org.springframework: INFO
+    com.javatechie: INFO
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: c:/Users/ryarada/Desktop/logs/app.log
